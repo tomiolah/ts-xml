@@ -1,0 +1,30 @@
+{
+  "name": "ts-xml",
+  "version": "1.0.0",
+  "description": "A Typescript interface (OOP-based and functional) for building XML documents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomiolah/ts-xml.git"
+  },
+  "author": "Tomi Olah <tomiolah1998@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/tomiolah/ts-xml/issues"
+  },
+  "homepage": "https://github.com/tomiolah/ts-xml#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  }
+}
