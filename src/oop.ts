@@ -132,7 +132,7 @@ export default class XMLNode implements XMLNodeType {
 
     const attributesAsString = 
       Object.keys(this.attributes).length > 0
-      ? [ '', Object
+      ? [ '', ...Object
           .keys(this.attributes)
           .map(k => `${k}="${
             `${this.attributes[k]}`.replace('"', '\\"')

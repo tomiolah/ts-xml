@@ -1,6 +1,6 @@
 {
   "name": "@tomiolah1998/ts-xml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Typescript interface (OOP-based and functional) for building XML documents",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -114,7 +114,7 @@ const printNode = (node: XMLNodeType, {
   const attributesAsString = Object
   .keys(node.attributes).length > 0 ? [
     '',
-    Object
+    ...Object
       .keys(node.attributes)
       .map(k => `${k}="${
         `${node.attributes[k]}`.replace('"', '\\"')
